@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-size: 18px !important;
+  font-size: 15px !important;
 }
 
 :root {
