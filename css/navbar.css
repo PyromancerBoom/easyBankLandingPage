@@ -90,3 +90,16 @@
   transform: scaleX(0.7);
   transform-origin: center;
 }
+
+/* INVITE BUTTON */
+.nav .btn {
+  margin-right: 9rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(136, 65%, 51%);
+}
