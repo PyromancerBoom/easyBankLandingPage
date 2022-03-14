@@ -1,0 +1,77 @@
+:root {
+  /*      Theme colors        */
+  --text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --midnight: #104f55;
+
+  /* gradient color   */
+  --sky: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  --silence: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+
+  /*      theme font-family    */
+  --abel: "Abel", cursive;
+  --anton: "Anton", cursive;
+  --josefin: "Josefin", cursive;
+  --lexend: "Lexend", cursive;
+  --livvic: "Livvic", cursive;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.842);
+  padding: 0 3rem;
+  height: 0rem;
+  min-height: 8vh;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+  margin-bottom: 0.2rem;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.nav .nav-menu .nav-brand .nav-image {
+  padding: 0rem 0rem !important;
+  border-radius: 10%;
+  padding: 5px;
+  height: 3.4rem;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  color: black;
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  /*  Navigation Buttons  */
+  color: black !important;
+  padding: 1.5rem 2rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: var(--abel);
+}
+
+.nav .nav-items .nav-link:hover {
+  background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a {
+  color: var(--white);
+}
+
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  display: block;
+  font-family: var(--lexend);
+  font-size: 1.6rem;
+}
