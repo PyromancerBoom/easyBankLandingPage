@@ -1,16 +1,19 @@
-/* -------------------- Global Classes -------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Noto+Sans&family=Oswald&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+@import url("./navbar.css");
 
 html,
 body {
   margin: 0%;
+  font-family: "Public Sans", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-size: 18px !important;
 }
 
 :root {
   /*      Theme colors        */
-  --text-gray: #3f4954;
+  --text-gray: #2d3641d8;
   --text-light: #686666da;
   --bg-color: #0f0f0f;
   --white: #ffffff;
@@ -19,18 +22,10 @@ body {
   /* gradient color   */
   --sky: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   --silence: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
-
-  /*      theme font-family    */
-  --abel: "Abel", cursive;
-  --anton: "Anton", cursive;
-  --josefin: "Josefin", cursive;
-  --lexend: "Lexend", cursive;
-  --livvic: "Livvic", cursive;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-gray);
 }
 
 .flex-row {
@@ -43,31 +38,11 @@ ul {
   list-style-type: none;
 }
 
-h1 {
-  font-family: var(--lexend);
-  font-size: 2.7rem;
-}
-
-h2 {
-  font-family: var(--lexend);
-}
-
-h3 {
-  font-family: var(--abel);
-  font-size: 1.5rem;
-}
-
 button.btn {
   border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
-  font-size: 1rem;
-  font-family: var(--livvic);
   cursor: pointer;
-}
-
-span {
-  font-family: var(--abel);
 }
 
 .container {
@@ -79,7 +54,6 @@ span {
 }
 
 p {
-  font-family: var(--lexend);
   color: var(--text-light);
 }
 /* -------------------- Global Classes -------------------------*/
