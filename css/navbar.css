@@ -8,14 +8,12 @@
   overflow: hidden;
   transition: height 0.5s ease-in-out;
   margin-bottom: 0.5rem;
-
   position: relative;
   width: 100%;
 }
 
 .nav .nav-menu .nav-brand .nav-image {
-  padding: 0rem 0rem !important;
-  padding: 5px;
+  padding: 0.4rem 0rem !important;
   margin-left: 2rem;
   height: 2rem;
 }
@@ -48,25 +46,24 @@
 }
 
 .nav .nav-items {
+  align-items: center !important;
   display: flex;
   margin: 0;
 }
 
-.nav .nav-items .nav-link {
-  /*  Navigation Buttons  */
-  padding: 1.5rem 2rem;
-  position: relative;
-}
 .nav .nav-brand a {
   padding: 1rem 0;
   display: block;
 }
 
 .nav .nav-items .nav-link {
-  color: rgb(0, 0, 0, 0.5);
-  padding: 1.5rem 2rem;
+  padding: 1.6rem 1.5rem;
   font-size: 1.1rem;
   position: relative;
+}
+
+.nav .nav-items .nav-link a {
+  color: rgba(24, 24, 24, 0.7);
 }
 
 .nav .nav-items .nav-link:hover a {
@@ -94,7 +91,7 @@
 /* INVITE BUTTON */
 .nav .btn {
   color: antiquewhite;
-  margin-right: 9rem;
+  margin-right: 10rem;
   margin-top: 1rem;
   font-size: 15px;
   width: 130px;
