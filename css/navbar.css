@@ -43,7 +43,7 @@
 }
 
 .nav .nav-items .nav-link a {
-  color: rgba(24, 24, 24, 0.7);
+  color: rgba(43, 43, 43, 0.7);
 }
 
 .nav .nav-items .nav-link:hover a {
@@ -79,7 +79,7 @@
   line-height: 42px;
   padding: 0;
   border: none;
-  background: hsl(136, 65%, 41%);
+  background: hsl(136, 65%, 51%);
 }
 .nav .btn:hover {
   background: hsl(136, 65%, 81%);

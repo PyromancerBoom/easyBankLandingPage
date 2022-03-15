@@ -16,6 +16,26 @@ main .intro {
   background-size: 70%;
 } */
 
+/* LEFT SIDE OF THE SECTION */
+
+main .intro {
+  max-width: 50vh;
+  width: 100%;
+  text-align: left;
+  padding-top: 19vh;
+  padding-left: 30vh;
+}
+
+main .intro h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+main .intro p {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 65%);
+}
+
 main .intro .btn {
   color: rgb(255, 255, 255);
   margin-right: 10rem;
@@ -26,18 +46,11 @@ main .intro .btn {
   line-height: 42px;
   padding: 0;
   border: none;
-  background: hsl(136, 65%, 41%);
-}
-main .intro .btn:hover {
-  background: hsl(136, 65%, 81%);
+  background: hsl(136, 65%, 51%);
 }
 
-main .intro {
-  max-width: 50vh;
-  width: 100%;
-  text-align: left;
-  padding-top: 25vh;
-  padding-left: 30vh;
+main .intro .btn:hover {
+  background: hsl(136, 65%, 81%);
 }
 
 /* SIDE BAR */
@@ -45,7 +58,7 @@ main .sidebar {
   background: url("../images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
-  background-size: 110%;
+  background-size: 105%;
 }
