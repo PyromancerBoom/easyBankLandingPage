@@ -2,7 +2,7 @@
 
 .nav {
   background: rgba(255, 255, 255, 0.9);
-  padding: 0 2rem;
+  padding: 0 0rem;
   height: 0rem;
   min-height: 8vh;
   overflow: hidden;
@@ -14,7 +14,7 @@
 
 .nav .nav-menu .nav-brand .nav-image {
   padding: 0.4rem 0rem !important;
-  margin-left: 2rem;
+  margin-left: 4rem;
   height: 2rem;
 }
 
@@ -22,28 +22,7 @@
   justify-content: space-between;
 }
 
-.nav .toggle-collapse {
-  position: absolute;
-  top: 0%;
-  width: 90%;
-  cursor: pointer;
-  display: none;
-}
-
-.nav .toggle-collapse .toggle-icons {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.7rem 0;
-}
-
-.nav .toggle-collapse .toggle-icons i {
-  font-size: 1.4rem;
-  color: var(--text-gray);
-}
-
-.collapse {
-  height: 32rem;
-}
+/* NAV ITEMS */
 
 .nav .nav-items {
   align-items: center !important;
@@ -56,6 +35,7 @@
   display: block;
 }
 
+/* LINKS */
 .nav .nav-items .nav-link {
   padding: 1.6rem 1.5rem;
   font-size: 1.1rem;
@@ -90,7 +70,7 @@
 
 /* INVITE BUTTON */
 .nav .btn {
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
   margin-right: 10rem;
   margin-top: 1rem;
   font-size: 15px;
@@ -100,4 +80,29 @@
   padding: 0;
   border: none;
   background: hsl(136, 65%, 51%);
+}
+
+/* TOGGLE ICONS */
+
+.nav .toggle-collapse {
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  cursor: pointer;
+  display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.4rem;
+  color: var(--text-gray);
+}
+
+.collapse {
+  height: 32rem;
 }

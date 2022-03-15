@@ -6,3 +6,21 @@ main .intro {
   width: 100%;
   background-size: 70%;
 }
+
+.intro .btn {
+  color: rgb(255, 255, 255);
+  margin-right: 10rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: hsl(136, 65%, 51%);
+}
+
+.intro h1 {
+  text-align: left;
+  padding-top: 10rem;
+}
