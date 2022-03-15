@@ -1,13 +1,22 @@
+@import url(global.css);
+
+/* MAIN SECTION*/
+
+main .container-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/*
 main .intro {
-  background: url("../images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
   background-position: right;
   height: 90vh;
   width: 100%;
   background-size: 70%;
-}
+} */
 
-.intro .btn {
+main .intro .btn {
   color: rgb(255, 255, 255);
   margin-right: 10rem;
   margin-top: 1rem;
@@ -17,10 +26,26 @@ main .intro {
   line-height: 42px;
   padding: 0;
   border: none;
-  background: hsl(136, 65%, 51%);
+  background: hsl(136, 65%, 41%);
+}
+main .intro .btn:hover {
+  background: hsl(136, 65%, 81%);
 }
 
-.intro h1 {
+main .intro {
+  max-width: 50vh;
+  width: 100%;
   text-align: left;
-  padding-top: 10rem;
+  padding-top: 25vh;
+  padding-left: 30vh;
+}
+
+/* SIDE BAR */
+main .sidebar {
+  background: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 110%;
 }
