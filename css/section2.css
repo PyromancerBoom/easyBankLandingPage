@@ -11,6 +11,7 @@
 
 .section2 .services {
   column-count: 4;
+  column-gap: 50px;
 }
 .section2 h2 {
 }
