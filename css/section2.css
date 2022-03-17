@@ -7,17 +7,29 @@
   margin-top: 0%;
   padding-left: 30vh;
   padding-right: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 img {
+  padding-bottom: 1rem;
+}
+
+.section2 h3 {
+  padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.section2 p {
+  font-size: 1.1rem;
+}
+
+.section2 .services p {
+  max-width: 15rem;
 }
 
 .section2 .services {
   column-count: 4;
   column-gap: 50px;
-}
-.section2 h2 {
-}
-
-.section2 h3 {
-}
-
-.section2 p {
 }
