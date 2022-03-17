@@ -6,4 +6,29 @@ footer.footer {
   position: relative;
   padding-left: 20vh;
   padding-right: 15vh;
+  color: hsl(220, 16%, 96%);
+}
+
+footer.footer .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer.footer .btn {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: hsl(136, 65%, 51%);
+}
+
+footer.footer .btn:hover {
+  background: hsl(136, 65%, 81%);
+}
+
+footer.footer .rights {
+  justify-content: end;
 }
