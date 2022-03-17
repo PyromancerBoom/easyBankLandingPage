@@ -1,0 +1,11 @@
+@import url(global.css);
+
+.section3 {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  margin-top: 0%;
+  padding-left: 30vh;
+  padding-right: 30vh;
+  justify-content: center;
+  align-items: center;
+}
