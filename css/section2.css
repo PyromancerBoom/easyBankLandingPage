@@ -1,6 +1,22 @@
 @import url(global.css);
 
 .section2 {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  background-color: hsl(220, 16%, 96%);
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  margin-top: 0%;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+.section2 .services {
+  column-count: 4;
+}
+.section2 h2 {
+}
+
+.section2 h3 {
+}
+
+.section2 p {
 }
