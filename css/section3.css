@@ -5,9 +5,18 @@
   padding-bottom: 8vh;
   margin-top: 0%;
   padding-left: 30vh;
-  padding-right: 30vh;
+  padding-right: 20vh;
   justify-content: center;
   align-items: center;
+}
+
+.section3 .content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 61px;
 }
 
 .section3 img {
@@ -22,13 +31,4 @@
 
 .section3 p {
   font-size: 1.1rem;
-}
-
-.section3 .services p {
-  max-width: 15rem;
-}
-
-.section3 .services {
-  column-count: 4;
-  column-gap: 50px;
 }

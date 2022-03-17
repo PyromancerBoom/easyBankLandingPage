@@ -6,7 +6,7 @@
   padding-bottom: 8vh;
   margin-top: 0%;
   padding-left: 30vh;
-  padding-right: 30vh;
+  padding-right: 20vh;
   justify-content: center;
   align-items: center;
 }
@@ -31,5 +31,5 @@
 
 .section2 .services {
   column-count: 4;
-  column-gap: 50px;
+  column-gap: 0;
 }
