@@ -6,13 +6,29 @@ footer.footer {
   position: relative;
   padding-left: 20vh;
   padding-right: 15vh;
-  color: hsl(220, 16%, 96%);
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  color: hsl(233, 8%, 62%);
 }
 
 footer.footer .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+/* ICONS */
+
+footer.footer .logo {
+  padding-bottom: 8rem;
+  height: 2rem;
+  filter: invert(0.9);
+}
+
+footer.footer .icons span + span {
+  margin-left: 10px;
+}
+
+/* BUTTON  */
 
 footer.footer .btn {
   color: rgb(255, 255, 255);
@@ -29,6 +45,10 @@ footer.footer .btn:hover {
   background: hsl(136, 65%, 81%);
 }
 
+/* RIGHTS */
+
 footer.footer .rights {
   justify-content: end;
 }
+
+/* MEDIA QUERIES */
