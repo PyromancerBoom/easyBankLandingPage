@@ -9,3 +9,26 @@
   justify-content: center;
   align-items: center;
 }
+
+.section3 img {
+  padding-bottom: 1rem;
+}
+
+.section3 h3 {
+  padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.section3 p {
+  font-size: 1.1rem;
+}
+
+.section3 .services p {
+  max-width: 15rem;
+}
+
+.section3 .services {
+  column-count: 4;
+  column-gap: 50px;
+}
