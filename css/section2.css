@@ -5,10 +5,10 @@
   padding-top: 8vh;
   padding-bottom: 8vh;
   margin-top: 0%;
-  padding-left: 30vh;
+  padding-left: 20vh;
   padding-right: 20vh;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .section2 img {
