@@ -42,6 +42,11 @@ footer.footer .icons span + span {
   margin-left: 10px;
 }
 
+footer.footer .icons span:hover {
+  filter: invert(59%) sepia(92%) saturate(372%) hue-rotate(84deg)
+    brightness(96%) contrast(91%);
+}
+
 /* BUTTON  */
 
 footer.footer .btn {
