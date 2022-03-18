@@ -6,8 +6,8 @@ footer.footer {
   position: relative;
   padding-left: 20vh;
   padding-right: 20vh;
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: hsl(233, 8%, 62%);
 }
 
@@ -33,7 +33,7 @@ footer.footer .links {
 /* ICONS */
 
 footer.footer .logo {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   height: 2rem;
   filter: invert(0.9);
 }
