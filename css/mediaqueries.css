@@ -14,7 +14,24 @@
 
 /*              Viewport less then or equal to 375px            */
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
+  /*---------------------- SECTION 3 ----------------------*/
+  .section3 .blogs {
+    padding-left: 0.5rem !important;
+    padding-right: 00.5rem !important;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+
+  .section3 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
   /*---------------------- SECTION 2 ----------------------*/
   .section2 {
     padding-left: 10vh;
