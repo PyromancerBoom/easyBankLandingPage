@@ -2,7 +2,7 @@
 
 .nav {
   background: rgba(255, 255, 255, 0.9);
-  padding: 0 0rem;
+  padding-left: 20vh !important;
   height: 0rem;
   min-height: 8vh;
   overflow: hidden;
@@ -12,9 +12,29 @@
   width: 100%;
 }
 
+/* INVITE BUTTON */
+.nav .btn {
+  color: rgb(255, 255, 255);
+  /* Button position */
+  margin-right: 38vh;
+  margin-left: 12vh !important;
+  /* X ---- X ---- X ---- x*/
+  margin-top: 1rem;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: hsl(136, 65%, 51%);
+}
+.nav .btn:hover {
+  background: hsl(136, 65%, 81%);
+}
+
 .nav .nav-menu .nav-brand .nav-image {
   padding: 0.4rem 0rem !important;
-  margin-left: 4rem;
+  /*margin-left: 4rem;*/
   height: 2rem;
 }
 
@@ -66,23 +86,6 @@
 .nav .hover-underline-animation:hover:after {
   transform: scaleX(0.7);
   transform-origin: center;
-}
-
-/* INVITE BUTTON */
-.nav .btn {
-  color: rgb(255, 255, 255);
-  margin-right: 10rem;
-  margin-top: 1rem;
-  font-size: 15px;
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-  background: hsl(136, 65%, 51%);
-}
-.nav .btn:hover {
-  background: hsl(136, 65%, 81%);
 }
 
 /* TOGGLE ICONS */
