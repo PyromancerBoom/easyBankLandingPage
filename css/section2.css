@@ -11,6 +11,15 @@
   align-items: center !important;
 }
 
+.section2 .services p {
+  max-width: 15rem;
+}
+
+.section2 .services {
+  column-count: 4;
+  column-gap: 0;
+}
+
 .section2 img {
   padding-bottom: 1rem;
 }
@@ -23,13 +32,4 @@
 
 .section2 p {
   font-size: 1.1rem;
-}
-
-.section2 .services p {
-  max-width: 15rem;
-}
-
-.section2 .services {
-  column-count: 4;
-  column-gap: 0;
 }
