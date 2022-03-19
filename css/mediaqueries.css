@@ -1,0 +1,43 @@
+@import url(global.css);
+/*              Viewport less then or equal to 1440px            */
+
+@media only screen and (max-width: 1440px) {
+  footer.footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer.footer .container .links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*      x       Viewport less then or equal to 1440px    x     */
+
+/*              Viewport less then or equal to 375px            */
+
+@media only screen and (max-width: 380px) {
+  footer.footer .container,
+  footer.footer .container .links {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer.footer .container .rights {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /*
+  footer.footer .container .rights .btn {
+    justify-content: center;
+    align-items: center;
+    position: relative !important;
+    -ms-transform: translateX(-50%) !important;
+    transform: translateX(-50% !important);
+  }
+  */
+}
+
+/*        x      Viewport less then or equal to 375px       x     */
