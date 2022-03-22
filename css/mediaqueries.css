@@ -18,12 +18,16 @@
   /*---------------------- SECTION 3 ----------------------*/
   .section3 .blogs {
     padding-left: 0.5rem !important;
-    padding-right: 00.5rem !important;
+    padding-right: 0.5rem !important;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     text-align: center;
     justify-content: center;
-    grid-gap: 20px;
+    grid-gap: 25px;
+  }
+
+  .section3 .content {
+    margin-right: 160px;
   }
 
   .section3 {

@@ -25,6 +25,13 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
   margin-right: 60px;
 }
+
+.section3 a,
+.section3 p {
+  text-align: left;
+  padding-left: 21px;
+  padding-right: 21px;
+}
 .section3 .content img {
   width: 100%;
 }
@@ -43,13 +50,6 @@
 .section3 .author {
   font-size: 0.9rem;
   color: hsl(233, 8%, 62%);
-}
-
-.section3 a,
-.section3 p {
-  text-align: left;
-  padding-left: 21px;
-  padding-right: 21px;
 }
 
 .section3 a {
